@@ -1,0 +1,47 @@
+.page-header{
+ font-family:courier;
+ font-weight:bold;
+ font-size:45px;
+ color:#cbd3d0;
+}
+
+.glyphicon{
+color:red;
+}
+body{
+background-color:#a80202;    
+}
+
+.navbar-brand{
+width:180px;    
+}
+img{
+width:290px;
+height:290px;
+border-style:solid;
+}
+.img-rounded{
+width:160px;
+height:160px;
+}
+p{
+ font-family:courier;
+ font-size:20px;
+ color:black;
+}
+.caption{
+color:white;
+font-family:courier;
+font-weight:bold;
+}
+.a{
+color:green;
+font-weight:bold;
+}
+button{
+color:yellow;    
+}
+h1{
+color:#cbd3d0;
+font-weight:bold;
+}
