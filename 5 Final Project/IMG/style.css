@@ -1,0 +1,137 @@
+.a{
+  border-radius: 10px;
+  height: 580px;
+  width: 620px;
+}
+.container-fluid{
+  background-color:black;
+  border-style: solid;
+  border-radius: 10px;
+}
+.jumbotron{
+  background-color:black;
+  border-style: solid;
+  border-radius: 20px;
+}
+span{
+  color:blue
+}
+body{
+  color:white;
+}
+.j{
+  background-color: black;
+}
+.r{
+  width:320px;
+}
+img{
+  width:290px;
+  height:290px;
+  border-radius:10px;
+  border-color: red;
+}
+.d{
+  background-color: #2815b5;
+}
+h1{
+  font-family:courier;
+  color:gold;
+}
+.btn{
+  width:420px;
+  height:120px;
+}
+.adi{
+  font-size: 150px;
+  color:white;
+}
+#simmons{
+  font-size:25px;
+  color:white;
+  font-family:times;
+}
+.reed{
+  font-family: times;
+}
+.adiesel{
+  width:210px;
+  height:210px;
+  border-radius: 10px;
+}
+#red{
+  color: red;
+}
+.swiss{
+  font-size: 25px;
+  color: white;
+  font-family: : courier;
+}
+h2{
+  color:white;
+  font-family:courier;
+  font-weight:bold;
+}
+.raz{
+  font-family: courier;
+  font-weight: bold;
+  font-size: 69px;
+}
+.st{
+  font-family: courier;
+  font-weight: bold;
+  font-size:45px;
+  color: gold;
+}
+.small{
+  font-size: 12px;
+}
+.white{
+  color:white;
+}
+#pinkey{
+  font-size:35px;
+}
+
+.carlos{
+  color:orange;
+}
+.ivan{
+  color:indianred;
+}
+.harrison{
+ color:rgb(196, 186, 2);
+}
+.checked{
+  color:gold;
+}
+.mehmet{
+  color:rgb(153, 102, 255);
+}
+.austin{
+  color:rgb(23, 130, 29);
+}
+.shopping{
+  width: 200px;
+  height: 210px;
+}
+.slick{
+  color:#035096;
+}
+.oil{
+  font-family: courier;
+}
+.shopping:hover{
+  transition-timing-function: ease;
+  height: 240px;
+  width:210px;
+}
+.ua{
+  color:indianred;
+}
+.mrb{
+  color:goldenrod;
+}
+.shingo{
+  color:Darkred;
+}
