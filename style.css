@@ -1,72 +1,47 @@
-/* .glyphicon{
-  color:red;
-} */
+.page-header{
+ font-family:courier;
+ font-weight:bold;
+ font-size:45px;
+ color:#cbd3d0;
+}
+
+.glyphicon{
+color:red;
+}
 body{
-  font-family: courier;
-  background-color:gray;
-}
-/* .container-fluid{
-  width:80%;
-  length:100%;
-  border-radius: 6px;
-  } */
-/* .content {
-  background-color: white;
-  position: relative;
-  border-radius: 6px;
-  width:90%;
-} */
-
-/* .timeline {
-  position: relative;
-  max-width: 1200px;
-  margin: 0 auto;
-} */
-/* .right{
-  left:0%;
-  margin-left: -180px;
-} */
-/* .left{
-  left:50%;
-  margin-right: 180px; */
-}
-#narkobaron{
-  background-color:white;
-}
-h1,h3{
-  color:green;
-}
-iframe{
-  width:990px;
-  height:1020px;
-  border-style:double;
-}
-#navbar {
-  overflow: hidden;
-  background-color: #333;
+background-color:#a80202;    
 }
 
-/* Navbar links */
-#navbar a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px;
-  text-decoration: none;
+.navbar-brand{
+width:180px;    
+}
+img{
+width:290px;
+height:290px;
+border-style:solid;
+}
+.img-rounded{
+width:160px;
+height:160px;
 }
 p{
-  color:gold;
+ font-family:courier;
+ font-size:20px;
+ color:black;
 }
-
-
-.sticky {
-  position: sticky;
-  top: 0;
-  width: 100%;
+.caption{
+color:white;
+font-family:courier;
+font-weight:bold;
 }
-
-
-.sticky + .content {
-  padding-top: 60px;
+.a{
+color:green;
+font-weight:bold;
+}
+button{
+color:yellow;    
+}
+h1{
+color:#cbd3d0;
+font-weight:bold;
 }
