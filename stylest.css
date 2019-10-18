@@ -9,16 +9,12 @@
 color:red;
 }
 
-div{
- background-color:green;
-}
+
 
 .navbar-brand{
-width:180px;    
+width:180px;
 }
-body{
- background-color:green;
-}
+
 p{
  font-family:courier;
  font-size:20px;
@@ -34,7 +30,7 @@ color:red;
 font-weight:bold;
 }
 button{
-color:yellow;    
+color:yellow;
 }
 h1{
 color:red;
@@ -43,4 +39,7 @@ font-weight:bold;
 iframe{
  width:710px;
  height:790px;
+}
+.kelly-green{
+  background-color:76, 187, 23;
 }
