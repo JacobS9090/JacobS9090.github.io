@@ -4,13 +4,6 @@
  font-size:45px;
  color:#cbd3d0;
 }
-
-.glyphicon{
-color:red;
-}
-
-
-
 .navbar-brand{
 width:180px;
 }
@@ -36,10 +29,7 @@ h1{
 color:red;
 font-weight:bold;
 }
-iframe{
- width:710px;
- height:790px;
-}
+
 .kelly-green{
  background-color:76, 187, 23;
 }
