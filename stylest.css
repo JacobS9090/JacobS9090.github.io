@@ -2,13 +2,10 @@
  font-family:Times New Roman, Times, serif;
  font-weight:bold;
  font-size:45px;
- color:#cbd3d0;
+ color:#4cbb17 ;
 }
 .navbar-brand{
 width:180px;
-}
-.page-header{
- color:76, 187, 23;
 }
 
 p{
@@ -31,8 +28,4 @@ color:yellow;
 h1{
 color:red;
 font-weight:bold;
-}
-
-.kelly-green{
- background-color:76, 187, 23;
 }
