@@ -7,6 +7,9 @@
 .navbar-brand{
 width:180px;
 }
+.full{
+ border-radius:100%;
+}
 
 p{
  font-family:courier;
