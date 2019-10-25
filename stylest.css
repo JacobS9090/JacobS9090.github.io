@@ -9,8 +9,8 @@ width:180px;
 }
 .full{
  border-radius:100%;
- width:600px;
- height:600px;
+ width:450px;
+ height:450px;
 }
 
 p{
@@ -33,7 +33,7 @@ font-weight:bold;
 }
 img {
   border-radius: 50%;
-  width:600px;
-  height:600px;
+  width:450px;
+  height:450px;
 }
  
