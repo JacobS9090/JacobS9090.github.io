@@ -37,9 +37,10 @@ img {
   height:350px;
 }
 #MyClockDisplay{
- border-radius: 50%;
+ font-size:30px;
  color:green;
  font-family:courier;
  font-weight:bold;
+ text-align:center;
 }
  
