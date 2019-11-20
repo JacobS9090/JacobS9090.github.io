@@ -40,12 +40,13 @@ h2{
 }
 .special{
  border-radius:25%;
-
+}
 .kelly-green{
  background-color:76, 187, 23;
 }
 #tip-content{
 background-color:navy;
+border-radius:35%;
 }
 .container-fluid{
   border-radius: 15%;
