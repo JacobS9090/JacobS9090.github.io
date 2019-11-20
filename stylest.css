@@ -2,15 +2,13 @@
  font-family:Times New Roman, Times, serif;
  font-weight:bold;
  font-size:45px;
- color:#4cbb17 ;
+ color:#cbd3d0;
 }
 .navbar-brand{
 width:180px;
 }
-.full{
- border-radius:100%;
- width:350px;
- height:350px;
+.page-header{
+ color:76, 187, 23;
 }
 
 p{
@@ -27,20 +25,29 @@ font-weight:bold;
 color:red;
 font-weight:bold;
 }
+.button-calc{
+color:green;
+width:350px;
+length:450px;
+}
 h1{
 color:red;
 font-weight:bold;
 }
-img {
-  border-radius: 50%;
-  width:350px;
-  height:350px;
+h2{
+  color:gray;
 }
-#MyClockDisplay{
- font-size:30px;
- color:green;
- font-family:courier;
- font-weight:bold;
- text-align:center;
+
+.kelly-green{
+ background-color:76, 187, 23;
 }
- 
+#tip-content{
+background-color:navy;
+}
+.container-fluid{
+  border-radius: 25%;
+  background-color: navy;
+  margin-left: 32%;
+  margin-right: 32%;
+}
+
