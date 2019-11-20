@@ -10,6 +10,9 @@ width:180px;
 .page-header{
  color:76, 187, 23;
 }
+.unit-or{
+  background-color:gold;
+}
 
 p{
  font-family:courier;
@@ -39,19 +42,35 @@ h2{
   color:gray;
 }
 .special{
- border-radius:25%;
+ border-radius:25px;
 }
 .kelly-green{
  background-color:76, 187, 23;
 }
 #tip-content{
 background-color:navy;
-border-radius:35%;
+border-radius:5px;
+margin-left:25%;
+margin-right:25%;
+border-color:black;
+border-width:12px;
+border-style: solid;
+}
+#tip-title{
+background-color:black;
+border-radius:5px;
+border-color:black;
+border-width:12px;
+border-style: solid;
 }
 .container-fluid{
-  border-radius: 15%;
-  background-color: navy;
+  border-radius:5px;
+  background-color: white;
   margin-left: 32%;
   margin-right: 32%;
 }
-
+#MyClockDisplay{
+  color: green;
+  border-radius: 6px;
+  font-weight: bold;
+}
