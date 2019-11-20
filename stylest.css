@@ -38,6 +38,8 @@ font-weight:bold;
 h2{
   color:gray;
 }
+.special{
+ border-radius:25%;
 
 .kelly-green{
  background-color:76, 187, 23;
@@ -46,7 +48,7 @@ h2{
 background-color:navy;
 }
 .container-fluid{
-  border-radius: 25%;
+  border-radius: 15%;
   background-color: navy;
   margin-left: 32%;
   margin-right: 32%;
