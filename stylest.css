@@ -28,11 +28,18 @@ font-weight:bold;
 color:red;
 font-weight:bold;
 }
-.button-calc{
-color:green;
-width:350px;
-length:450px;
-border-radius:25%;
+
+#mycost small {
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+}
+#totalTip:before{
+content: "Tip amount";
+font-size: 20px;
+font-weight: bold;
+display: block;
+text-transform: uppercase;
 }
 h1{
 color:red;
@@ -56,6 +63,31 @@ border-color:black;
 border-width:12px;
 border-style: solid;
 }
+#totalTip {
+  font-size: 30px;
+  margin-top: 5px;
+  text-align: center;
+  display: invisible;
+}
+
+#totalTip:before {
+  content: "Tip amount";
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+  text-transform: uppercase;
+}
+
+#totalTip sup {
+  font-size: 20px;
+  top: -18px;
+}
+
+#totalTip small {
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+}
 #tip-title{
 background-color:black;
 border-radius:5px;
@@ -73,4 +105,10 @@ border-style: solid;
   color: green;
   border-radius: 6px;
   font-weight: bold;
+}
+.left-align{
+  text-align:left;
+}
+.gray{
+  color:silver;
 }
