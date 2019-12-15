@@ -1,7 +1,8 @@
-<!DOCTYPE html>.
+  <!DOCTYPE html>.
 <html>
   <head>
       <link rel="stylesheet" type="text/css" href="stylest.css">
+      <script type="text/javascript" src="calc.js"></script>
   <head>
 <body class="unit-or">
 
@@ -23,8 +24,8 @@
   <br>
   <br>
   <br>
-  <center>
-    <div id="MyClockDisplay"></div>
+
+<div id="MyClockDisplay"></div>
     <script type="text/javascript">
       function showTime(){
         var date = new Date();
@@ -51,42 +52,49 @@
         setInterval(showTime, 1000);
     }
       showTime();
-    </script>
-  </div>
-  </center>
-  <center>
-  <div id="tip-calc">
-    <div id="tip-content">
+</script>
+<div id="tip-content">
         <div id="tip-title">
-          <h1 class="text-center page-header">Tip Calculator</h1>
+          <h1 class="left-align page-header">Tip Calculator</h1>
         </div>
-              <h2 class="text-center">How much was your bill?</h2>
+      <div id="calculator">
+
+              <h2 class="left-align">How much was your bill?</h2>
             <span>
               <form action="/action_page.php">
-                <input placeholder="$Bill Amount" type="text">
+                <input id="billcost" placeholder="$Bill Amount" type="text">
               </form>
             </span>
               <br>
-              <h2 class="text-center">How was your service?</h2>
-              <select>
+              <h2 class="left-align">Service</h2>
+              <select id="quality">
                 <option disabled-selected>--Choose an Option--</option>
-                <option>Meh-5%</option>
-                <option>Good-10%</option>
-                <option>Nice-15%</option>
-                <option>Superior-20%</option>
+                <option value="1.05">Meh-5%</option>
+                <option value="1.1">Good-10%</option>
+                <option value="1.15">Nice-15%</option>
+                <option value="1.2">Superior-20%</option>
               </select>
               <br>
-              <h2>How many people are sharing the bill?</h2>
+              <h2 class="left-align">How many people are sharing the bill?</h2>
               <span>
                 <form action="/action_page.php">
-                  <input placeholder="Amount of People" type="text">
+                  <input id="peopleamt" placeholder="Amount of People" type="text">
                 </form>
               </span>
 
-               <h2 class="text-center">Number of people</h2>
-              <button class="button-calc">Calculate</button>
+               <h2 class="left-align">Number of people</h2>
+              <button type="button" id="calculatet">Calculate</button>
           </div>
-  </div>
-</center>
+
+          <div id="totalTip">
+            <sup>$</sup><span id="tip">0.00</span>
+            <small id="each">each</small>
+          </div>
+
+</div>
+
+
+<script type="text/javascript" src="calc.js"></script>
+        </div>
   </body>
 </html>
