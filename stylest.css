@@ -28,7 +28,11 @@ font-weight:bold;
 color:red;
 font-weight:bold;
 }
-
+.tre{
+  color:black;
+  font-weight: normal;
+  font-size: 14px;
+}
 #mycost small {
   font-size: 20px;
   font-weight: bold;
